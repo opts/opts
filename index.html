@@ -1,13 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
 <title>在线物理考试系统</title>
 <style type="text/css">
 #header{width:1000px;height:150px;background:#e8e8e8;margin:0 auto;position:relative}
-#header div1{float:left;}
-#header div2{float:right;}
-#header div3{float:left;position:absolute;left:30px;bottom:20px;}
-#header div4{float:right;position:absolute;right:0px;bottom:0px;}
+#div3 {float:left;position:absolute;left:30px;bottom:20px;}
 #dlk{ background-color:#0168b7; width:1000px; height:500px;margin:0 auto;position:relative}
 #ss{position:absolute;right:526px;bottom:157px;}
 #qq{position:absolute;right:565px;bottom:224px;}
@@ -41,8 +40,7 @@
     text-shadow:0px 1px 2px #fff;
     background-attachment:scroll;
     background-repeat:repeat-x;
-    background-position-x:left;
-    background-position-y:top;
+    background-position:top;
     background-size:auto;
     background-origin:padding-box;
     background-clip:border-box;
@@ -164,12 +162,12 @@ intput#xuser_xuser_name input#xuser_password {
 
 <body>
 <div id="header">
-<div3><img src="opts/images/dfdfd.gif" align="middle" height="58" width="400"></div3>
+<div id="div3"><img src="opts/images/dfdfd.gif" alt="img" align="middle" height="58" width="400" ></div>
 </div>
-<div id="dlk"><div id="ss"><img src="opts/images/lala.gif"></div>
-<div id="qq"><img src="opts/images/a_003.gif"></div>
-<div id="ww"><img src="opts/images/a.gif"></div>
-<div id="ee"><img src="opts/images/a_002.gif"></div>
+<div id="dlk"><div id="ss"><img src="opts/images/lala.gif" alt="img"  ></div>
+<div id="qq"><img src="opts/images/a_003.gif" alt="img" ></div>
+<div id="ww"><img src="opts/images/a.gif" alt="img" ></div>
+<div id="ee"><img src="opts/images/a_002.gif" alt="img" ></div>
 <div id="rr">
 <form action="opts/public/code/index.php" method="post" id="form_login" enctype="multipart/form-data">
         <table id="table1" align="center" width="102%" border="0">
@@ -178,19 +176,19 @@ intput#xuser_xuser_name input#xuser_password {
 	      </tr>
           <tr>
             <td>&nbsp;&nbsp;<span class="STYLE3">用户</span></td>
-		    <td><input type="text" name="xuser_name" id="xuser_name" value="" size="14" maxlength="255" title="用户名，用于登录此多用户系统的名字"></td>
+		    <td><input type="text" name="xuser_name" id="xuser_name" value="" size="14" maxlength="255" title="用户名，用于登录此多用户系统的名字" ></td>
 	      </tr>
           <tr>
             <td height="39">&nbsp;&nbsp;<span class="STYLE3">密码</span></td>
-		    <td><input type="password" name="xuser_password" id="xuser_password" value="" size="14" maxlength="255" title="密码，和用户名一起使用可通过此系统访问认证的字母和数字混合代码">
+		    <td><input type="password" name="xuser_password" id="xuser_password" value="" size="14" maxlength="255" title="密码，和用户名一起使用可通过此系统访问认证的字母和数字混合代码" >
 	          <span class="STYLE3"><a id="forget" href="opts/public/code/tce_password_reset.php" style="font-size: 90%;">忘记密码?</a></span></td>
 	      </tr>
           <tr>
             <td height="39">            </td>
-		    <td>&nbsp;<input type="submit" name="login" id="login" value="登陆" title="点击这里登录">        &nbsp;&nbsp;&nbsp;&nbsp; <a id="regist" href="opts/public/code/tce_user_registration.php">注册</a>	    </td>
+		    <td>&nbsp;<input type="submit" name="login" id="login" value="登陆" title="点击这里登录" >        &nbsp;&nbsp;&nbsp;&nbsp; <a id="regist" href="opts/public/code/tce_user_registration.php">注册</a>	    </td>
 	      </tr>
         </tbody></table>
-<input type="hidden" name="logaction" id="logaction" value="login">
+<input type="hidden" name="logaction" id="logaction" value="login" >
 </form>
   </div>
 </div>

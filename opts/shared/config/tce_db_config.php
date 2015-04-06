@@ -35,7 +35,7 @@ define ('K_DATABASE_TYPE', 'MYSQL');
 /**
  * database Host name (eg: localhost)
  */
-define ('K_DATABASE_HOST', 'example.com');
+define ('K_DATABASE_HOST', 'localhost');
 
 /**
  * database port (eg: 3306, 5432, 1521)
@@ -45,17 +45,17 @@ define ('K_DATABASE_PORT', '3306');
 /**
  * database name (TCExam)
  */
-define ('K_DATABASE_NAME', 'exampledb');
+define ('K_DATABASE_NAME', 'optsdb');
 
 /**
  * database user name
  */
-define ('K_DATABASE_USER_NAME', 'dbuser');
+define ('K_DATABASE_USER_NAME', 'root');
 
 /**
  * database user password
  */
-define ('K_DATABASE_USER_PASSWORD', 'dbpassword');
+define ('K_DATABASE_USER_PASSWORD', '321321a');
 
 /**
  * prefix for database tables names

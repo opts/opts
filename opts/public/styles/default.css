@@ -208,7 +208,7 @@ div.float {
 
 /* header (logo + timer) ------------ */
 div.header {
-	background-color: #0168b7;
+	background-color: #FFE400;
 	border: 0px none;
 	height: 80px;
 	margin: 0px 0px 0px 0px;
@@ -412,7 +412,7 @@ div.title {
 
 /* USER BAR  ------------------- */
 div.userbar {
-	background-color: #0168b7;
+	background-color: #FFE400;
 	// background-color: rgba(9,191,221,1);
 	clear: both;
 	color: #FFFFFF;
@@ -769,7 +769,7 @@ div.scrollmenu {
 	font-size: 75%;
 	font-weight: bold;
 	text-decoration: none;
-	background-color: #0168b7;
+	background-color: #FFE400;
 	// background: rgba(9, 206, 221, 1);
 	border: 0;
 }

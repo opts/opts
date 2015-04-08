@@ -1,0 +1,4 @@
+[submodule "mathjax"]
+    path = opts/mathjax
+    url = git://github.com/mathjax/MathJax.git
+
